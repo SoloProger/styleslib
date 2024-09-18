@@ -1,0 +1,78 @@
+@for $count from 0 through 1000 {
+  .mb-#{$count} {
+    margin-bottom: 1px * $count;
+  }
+
+  .mb-#{$count}-rem {
+    margin-bottom: 1rem * $count;
+  }
+
+  .mt-#{$count} {
+    margin-top: 1px * $count;
+  }
+
+  .ml-#{$count} {
+    margin-left: 1px * $count;
+  }
+
+  .mr-#{$count} {
+    margin-right: 1px * $count;
+  }
+
+  .p-#{$count} {
+    padding: 1% * $count;
+
+    &-px {
+      padding: 1px * $count;
+    }
+
+    &-px-i {
+      padding: 1px * $count !important;
+    }
+  }
+  
+  .pt-#{$count} {
+    padding-top: 1% * $count;
+
+    &-px {
+      padding-top: 1px * $count;
+    }
+
+    &-rem {
+      padding-top: 1rem * $count;
+    }
+  }
+
+
+  .pb-#{$count} {
+    padding-bottom: 1% * $count;
+
+    &-px {
+      padding-bottom: 1px * $count;
+    }
+
+    &-rem {
+      padding-bottom: 1rem * $count;
+    }
+  }
+
+  .p-x-#{$count} {
+    padding-left: 1% * $count;
+    padding-right: 1% * $count;
+  }
+
+  .p-y-#{$count} {
+    padding-top: 1% * $count;
+    padding-bottom: 1% * $count;
+  }
+
+  .p-x-#{$count}-px {
+    padding-left: 1px * $count;
+    padding-right: 1px * $count;
+  }
+
+  .p-y-#{$count}-px {
+    padding-top: 1px * $count;
+    padding-bottom: 1px * $count;
+  }
+}
