@@ -12,11 +12,6 @@
       border: $count * 1px solid !important;
     }
   }
-
-  // Experiment
-  .border-#{$count}-#{$type} {
-    border: $count * 1px $type;
-  }
 }
 
 .border-circle {
