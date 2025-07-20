@@ -1,0 +1,26 @@
+{
+  "name": "@solo_proger/styleslib",
+  "version": "1.0.1",
+  "main": "styles/index.scss",
+  "files": [
+    "styles"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoloProger/styleslib.git"
+  },
+  "keywords": [
+    "scss",
+    "sass",
+    "design",
+    "mixins",
+    "variables"
+  ],
+  "author": "Andrei Solo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoloProger/styleslib/issues"
+  },
+  "homepage": "https://github.com/SoloProger/styleslib#readme",
+  "description": "Custom styleslib for pet-projects"
+}

@@ -1,7 +1,7 @@
 @import "_mixins.scss";
 
 .example-regular {
-  @include text-bold-1();
+  @include example-txt-mixin();
 }
 
 .text-decor-none {
