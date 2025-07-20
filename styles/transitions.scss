@@ -1,4 +1,4 @@
-@for $count from 0 through 100 {
+@for $sec from 0 through 100 {
   .transition-#{$sec} {
     transition: ($sec / 100) * 1s;
   }
