@@ -6,6 +6,15 @@
   position: absolute;
 }
 
+// Experiment
+.pos-#{$type} {
+  position: $type;
+}
+
+.z-index {
+  z-index: 1;
+}
+
 @for $count from 0 through 1000 {
   .t-#{$count} {
     top: 1px * $count;
@@ -22,12 +31,4 @@
   .r-#{$count} {
     right: 1px * $count;
   }
-}
-
-.r-0 {
-  right: 0;
-}
-
-.z-index {
-  z-index: 1;
 }

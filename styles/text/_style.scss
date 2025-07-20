@@ -1,28 +1,7 @@
 @import "_mixins.scss";
-@import "../colors";
 
-.text-regular {
+.example-regular {
   @include text-bold-1();
-}
-
-.main-heading {
-  @include header-1();
-}
-
-.main-heading-2 {
-  @include header-1-extra();
-}
-
-.heading-3 {
-  @include header-2();
-}
-
-.second-heading {
-  @include header-2();
-}
-
-.heading-3 {
-  @include header-3();
 }
 
 .text-decor-none {
@@ -31,16 +10,24 @@
 
 .text-center {
   text-align: center;
+
+  &-i {
+    text-align: center !important;
+  }
 }
 
 .text-start {
   text-align: start;
-}
 
-.text-start-imp {
-  text-align: start !important;
+  &-i {
+    text-align: start !important;
+  }
 }
 
 .text-end {
   text-align: end;
+
+  &-i {
+    text-align: end !important;
+  }
 }

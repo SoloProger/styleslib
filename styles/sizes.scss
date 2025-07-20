@@ -1,35 +1,67 @@
 @for $count from 0 through 100 {
   .w-#{$count} {
     width: 1% * $count;
+
+    &-i {
+      width: 1% * $count !important;
+    }
   }
 
   .h-#{$count} {
     height: 1% * $count;
-  }
 
-  .wi-#{$count} {
-    width: 1% * $count !important;
+    &-i {
+      height: 1% * $count !important;
+    }
   }
 
   .w-vw-#{$count} {
     width: 1vw * $count;
+
+    &-i {
+      width: 1vw * $count !important;
+    }
   }
 
   .h-vh-#{$count} {
     height: 1vh * $count;
+
+    &-i {
+      height: 1vh * $count !important;
+    }
   }
 }
 
 @for $count from 0 through 1000 {
   .wp-#{$count} {
     width: 1px * $count;
-  }
 
-  .max-wp-#{$count} {
-    max-width: 1px * $count;
+    &-i {
+      width: 1px * $count !important;
+    }
   }
 
   .hp-#{$count} {
     height: 1px * $count;
+
+    &-i {
+      height: 1px * $count !important;
+    }
+  }
+
+  .max-wp-#{$count} {
+    max-width: 1px * $count;
+
+    &-i {
+      max-width: 1px * $count !important;
+    }
+  }
+
+  .max-hp-#{$count} {
+    max-height: 1px * $count;
+
+    &-i {
+      max-height: 1px * $count !important;
+    }
   }
 }

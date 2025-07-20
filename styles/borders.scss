@@ -4,18 +4,21 @@
   }
 }
 
-.border-2 {
-  border: 2px solid;
+@for $count from 0 through 10 {
+  .border-#{$count} {
+    border: $count * 1px solid;
+
+    &-i {
+      border: $count * 1px solid !important;
+    }
+  }
+
+  // Experiment
+  .border-#{$count}-#{$type} {
+    border: $count * 1px $type;
+  }
 }
 
-.border-4 {
-  border: 4px solid;
-}
-
-.br-bottom {
-  border-bottom: 1px solid;
-}
-
-.border-cricle {
+.border-circle {
   border-radius: 50%;
 }

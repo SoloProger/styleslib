@@ -1,7 +1,5 @@
-.trans-1 {
-  transition: 1s;
-}
-
-.trans-0 {
-  transition: 0.5s;
+@for $count from 0 through 100 {
+  .transition-#{$sec} {
+    transition: ($sec / 100) * 1s;
+  }
 }
